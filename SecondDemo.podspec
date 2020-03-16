@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/547882479@qq.com/SecondDemo'
+  s.homepage         = 'https://github.com/jiangjiang09081/Home'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '547882479@qq.com' => '547882479@qq.com' }
-  s.source           = { :git => 'https://github.com/547882479@qq.com/SecondDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/jiangjiang09081/Home.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SecondDemo/Classes/**/*'
+  s.source_files = 'Sources/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'SecondDemo' => ['SecondDemo/Assets/*.png']
+  #   'SecondDemo' => ['Sources/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
